@@ -1,2 +1,19 @@
-DotNet/obj/Debug/net8.0/DotNet.assets.cache
-DotNet/obj/Debug/net8.0/DotNet.assets.cache
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# ASP.NET
+bin/
+obj/
+*.suo
+*.user
+*.bak
+*.cache
+*.dll
+*.exe
+*.pdb
+*.log
+*.vspscc
+*.vssscc
+.vs/
