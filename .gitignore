@@ -17,3 +17,4 @@ obj/
 *.vspscc
 *.vssscc
 .vs/
+NodeJs/package-lock.json
