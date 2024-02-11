@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 app = express();
 
 app.use(bodyParser.json());
-
+app.use(express.urlencoded());
 const data = [];
 let id = 1;
 
@@ -24,6 +24,7 @@ app.get("/api/node/get-from-dotnet", async (req, res) => {
 
 app.post("/api/node", (req, res) => {
   const person = req.body;
+  console.log(person);
   data.push(person);
   res.sendStatus(200);
 });

@@ -20,7 +20,7 @@ app.MapGet("/api/dotnet", () =>
 app.MapPost("/api/dotnet", async (IHttpClientFactory clientFactory, Person person) =>
 {
     people.Add(id++, person);
-
+    System.Console.WriteLine(person);
     using var client = clientFactory.CreateClient("NodeApi");
     await client.PostAsJsonAsync<Person>("/api/node", person);
 
