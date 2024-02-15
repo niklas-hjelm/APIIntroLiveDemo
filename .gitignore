@@ -21,3 +21,4 @@ NodeJs/package-lock.json
 
 .fake
 DotNet/obj/Debug/net8.0/DotNet.AssemblyInfo.cs
+DotNet/obj/Debug/net8.0/DotNet.AssemblyInfoInputs.cache
